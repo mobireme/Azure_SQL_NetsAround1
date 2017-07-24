@@ -19,7 +19,7 @@ The Azure NetsAround Web App uses Bing Maps RESTToolKit for displaying the locat
 
 The Azure NetsAround Web App includes the menus below for viewing the data. The time values are shown as UTC time.
 
-** WiFi Statistics: **
+**WiFi Statistics:**
 
 Shows the number and list of the WiFi networks detected at each site. The number of Wifi networks can be used as an indication of the expected Wifi signal quality. If there’s a high number of Wifi networks concentrated in small areas, the chances for interference and connectivity issues increases.
 
@@ -31,7 +31,7 @@ The Web app lets the user to select the Top 10 and Bottom 10 places with the hig
 
 WiFi statistics can be filtered to cover selected days and show the entries from a selected user. The User Name is an optional identifier that the users can configure in their phone app.
 
-** WiFi Network Detail information: **
+**WiFi Network Detail information:**
 
 Lets the user to search the WiFi networks based on different criterias, e.g the following:
 * Minimum Signal Strength: given in negative dBm value between 0 and -100 (e.g. -50). The closer the value is zero, the stronger the signal is.
@@ -40,7 +40,7 @@ Lets the user to search the WiFi networks based on different criterias, e.g the 
 * BSSID: Select "Distinct" if you want the same WiFi access point to appear only once in the search results.
 * WiFi Type: WiFi security type (or open).
 
-** Cellular Network Statistics: **
+**Cellular Network Statistics:**
 
 Shows a list of the Top 10 and Bottom 10 places ordered by the cellular network signal strength observed at each place, or All places in the chronological order. The strength is expressed with a value between 0 - 31 where 31 means the highest signal strength. With low signal strengths the chances for poor reception and connectivity issues increases.
 
@@ -51,7 +51,7 @@ When selecting "All" and showing all entries on the map, the following color cod
 
 The statistics can be filtered to cover selected days and show the entries from a selected user. The User Name is an optional identifier that the users can configure in their phone app.
 
-** Cellular Network Details: **
+**Cellular Network Details:**
 
 Lets the user to search the cellular network data based on different criterias:
 * Minimum Signal Strength: Show the networks with higher or equal to the given signal strength (0 - 31)
